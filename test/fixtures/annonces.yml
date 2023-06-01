@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  titre: MyString
+  category: MyString
+  prix: MyString
+  city: MyString
+  date: 2023-05-04 22:46:36
+
+two:
+  titre: MyString
+  category: MyString
+  prix: MyString
+  city: MyString
+  date: 2023-05-04 22:46:36

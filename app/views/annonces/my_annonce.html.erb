@@ -1,0 +1,28 @@
+<div class ="container">
+  <div class="columns">
+<% @annonces.each do |my_annonce| %>
+ <div class="column is-2">
+     <div class="card">
+  <div class="card-image">
+    <figure class="image is-4by3">
+    <%= image_tag  url_for(my_annonce.image) , alt: "https://bulma.io/images/placeholders/96x96.png" %>
+    </figure>
+  </div>
+  <div class="card-content">
+
+    <div class="content">
+       <p class="subtitle is-5"><%= my_annonce.titre%> </p>
+      <p class="subtitle is-6"> <%= my_annonce.prix %> DH </p>
+      <time datetime="2016-1-1"></time>
+    </div>
+  </div>
+  <footer class="card-footer">
+    <a href=<%= edit_annonce_path(my_annonce.id) %>  class="card-footer-item">Edit</a>
+    <%= button_to 'Delete',  annonce_path(my_annonce.id), class: 'button is-danger',method: :delete %>
+  </footer>
+</div>
+</div>
+
+<% end %>
+</div>
+</div>

@@ -1,0 +1,29 @@
+<div id="<%= dom_id annonce %>">
+<table>
+  <thead>
+    <tr>
+ <th>Titre:</th>
+ <th>Category:</th>
+ <th>Prix:</th>
+ <th>City:</th>
+ <th>Date:</th>
+ </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <td>
+    <%= annonce.titre %></td>
+    <td><%= annonce.category %></td>
+
+    <td><%= annonce.prix %></td>
+
+    <td><%= annonce.city %></td>
+
+    <td><%= annonce.date %></td>
+
+     <%= image_tag url_for(annonce.image) %>
+
+    </tr>
+  </tbody>
+</table>
+</div>

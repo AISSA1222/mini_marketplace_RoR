@@ -1,0 +1,331 @@
+
+
+<section class = "section">
+
+<figure class="image  is-4by1 " >
+  <img src="https://tpc.googlesyndication.com/daca_images/simgad/6407901498043888309" style="border-radius:10px;">
+</figure>
+
+<br><br>
+
+<div class="box" style="border-top: 5px solid;
+  border-image:   linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 3;background-color:white;border-radius:0">
+
+<br>
+ <form class ="columns is-multiline">
+ <div class="column is-4">
+  <div class="control has-icons-left has-icons-right ml-6 is-4">
+  <input class="input" type="text" placeholder="Que recherchez vous ?">
+  <span class="icon  is-left">
+<i class="fa-solid fa-magnifying-glass"></i>  </span>
+
+</div></div>
+
+<div class="column is-4">
+<div class="select is-fullwidth">
+  <select  >
+   <option id="category" value="1" data-icon ="fa-solid fa-grid-2" > --tous les catégories </option>
+   <option value="Vehicules" data-icon ="fa-solid fa-grid-2" >Vehicules</option>
+   <option value="Immobilier" data-icon ="fa-solid fa-grid-2" >Immobilier</option>
+   <option value="Informatique et multimédia" data-icon ="fa-solid fa-grid-2" >Informatique et multimédia </option>
+   <option value="Pour maison" data-icon ="fa-solid fa-grid-2" > Pour maison</option>
+   <option value="Loisir et devirtessement" data-icon ="fa-solid fa-grid-2" > Loisir et devirtessement</option>
+   <option value="Autres" data-icon ="fa-solid fa-grid-2" >Autres</option>
+
+
+
+  </select>
+</div>
+</div>
+<div class="column is-4">
+<div class="select is-fullwidth" >
+  <select>
+
+<option value="3" selected="">Tout le Maroc</option>
+
+<option value="casa"> Casablanca</option>
+
+<option value="Agadir"> Agadir</option>
+
+<option value="Al Hocïema"> Al Hocïema</option>
+
+<option value="Béni Mellal"> Béni Mellal</option>
+
+<option value="El Jadida"> El Jadida</option>
+
+<option value="Errachidia"> Errachidia</option>
+
+<option value="Fès"> Fès</option>
+
+<option value="Kénitra"> Kénitra</option>
+
+<option value="Khénifra"> Khénifra</option>
+
+<option value="Khouribga"> Khouribga</option>
+
+<option value="Larache"> Larache</option>
+
+<option value="Marrakech"> Marrakech</option>
+
+<option value="Meknès"> Meknès</option>
+
+<option value="Nador"> Nador</option>
+
+<option value="Ouarzazate"> Ouarzazate</option>
+
+<option value="Oujda"> Oujda</option>
+
+<option value="Rabat"> Rabat</option>
+
+<option value="Safi"> Safi</option>
+
+<option value="Settat"> Settat</option>
+
+<option value="Salé"> Salé</option>
+
+<option value="Tanger"> Tanger</option>
+
+<option value="Taza"> Taza</option>
+
+<option value="Tétouan"> Tétouan</option>
+
+
+  </select>
+</div>
+</div>
+
+
+<div class="column is-2 ml-6 hoverable ">
+
+<a class="fa-solid fa-computer" data-target="modal-im" > Informatique et multimédia</a>
+  <div id="modal-im" class="modal">
+
+<div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Informatique et multimédia</p>
+      <button class="delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body is-multiline" id="informatique">
+      <a class=""> <i class="fa-brands fa-raspberry-pi"> raspberry et cartes électroniques </i></a>
+     <a class="" > <i class="fa-solid fa-mobile" style="color: #729fcf;">mobile</i></a>
+       <a class=""> <i class="fa-solid fa-laptop" style="color: #2e3436;"> Les ordinateurs </i></a>
+
+
+
+    </section>
+    <footer class="modal-card-foot">
+     <a class="close" >annuler</a>
+
+    </footer>
+  </div>
+
+
+  </div>
+</a>
+</div>
+
+<div class="column is-2 hoverable">
+
+<a class="fa-solid fa-house" style="color: #73d216;" data-target ="modal-i"> Immobilier</i></a>
+
+
+<div id="modal-i" class="modal">
+
+<div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Immobilier</p>
+    </header>
+    <section class="modal-card-body is-multiline" id="immo">
+      <a class=""> <i class="fa-solid fa-apartment" style="color: #204a87;"> Appartements </i></a>
+     <a class=""> <i class="fa-solid fa-solid fa-store"> Magasins</i></a>
+       <a class=""> <i class="fa-solid fa-wheat" style="color: #c17d11;"> Terrains et fermes  </i></a>
+       <a class=""> <i class="fa-solid fa-island-tropical" style="color: #73d216;">Locations de vacances</i></a>
+        <a class="">   <i class="fa-solid fa-buildings" style="color: #888a85;"> Bureaux</i></a>
+        <a class="">   <i class="fa-solid fa-buildings" style="color: #008a85;"> IMMO Neuf</i></a>
+        <a class="">   <i class="fa-solid fa-buildings" style="color: #448a85;"> Autre Immo</i></a>
+
+
+    </section>
+    <footer class="modal-card-foot">
+      <a class="close" >annuler</a>
+
+    </footer>
+  </div>
+
+
+  </div>
+
+
+
+
+</div>
+
+<div class="column is-2 hoverable ">
+
+<a class="fa-solid fa-car is-large" style="color: #cc0000;" data-target="modal-v"> Vehicules</a>
+
+
+<div id="modal-v" class="modal">
+
+<div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Vehicules</p>
+    </header>
+    <section class="modal-card-body is-multiline">
+      <a class="fa-solid fa-car-on" style="color: #c17d11;" >Auto neuf </a>
+     <a class="fa-solid fa-car-garage" >Location de voiture</a>
+       <a  class="fa-solid fa-car-rear" > Voitures d'occasion</a>
+       <a class="fa-solid fa-motorcycle" style="color: #0fb7a6;">Motors</a>
+        <a class="fa-solid fa-tire" style="color: #0fb706;"> Pieces et accesoires </a>
+        <a class=" fa-solid fa-bicycle" style="color: #5c3566;">Velos </a>
+        <a  class="fa-solid fa-tractor" style="color: #8f5902;">Engins agricole</a>
+        <a   class="fa-solid fa-caravan">Carvanes</a>
+          <a class="fa-solid fa-truck">Cameon</a>
+           <a class="fa-sharp fa-solid fa-grid-2">Autre vehicules</a>
+
+    </section>
+    <footer class="modal-card-foot">
+    <a class="close" >annuler</a>
+
+    </footer>
+  </div>
+
+
+  </div>
+
+
+</div>
+
+
+<div class="column is-2 hoverable ">
+
+<a class="fa-solid fa-couch" style="color: #8f5902;"   data-target ="modal-pm"> Pour maison</a>
+
+<div id="modal-pm" class="modal">
+
+<div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Pour maison</p>
+
+    </header>
+    <section class="modal-card-body is-multiline">
+      <a class="fa-solid fa-refrigerator" style="color: #2eff36;"> Electroménager et vaisselles</a>
+     <a class="fa-solid fa-lights-holiday">Meubles et décorations</a>
+      <a class="fa-solid fa-shovel" style="color: #2e3436;">Jardin et outils de bricolage </a>
+
+
+    </section>
+    <footer class="modal-card-foot">
+      <a class="close" >annuler</a>
+
+    </footer>
+  </div>
+
+
+  </div>
+
+
+
+</div>
+
+
+<div class="column is-2 hoverable ">
+
+<a class="fa-sharp fa-solid fa-futbol" style="color: #86c9e6;" data-target ="modal-ld">Loisir et devirtessement</a>
+
+<div id="modal-ld" class="modal">
+
+<div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Loisir et devirtessement</p>
+    </header>
+    <section class="modal-card-body is-multiline">
+      <a class="fa-solid fa-baseball" style="color: #a40000;">Sport</a>
+     <a class="fa-solid fa-dog" style="color: #fce94f;">Animaux</a>
+       <a class="fa-sharp fa-solid fa-guitar" style="color: #75507b;">Instrement de musique</a>
+      <a class="fa-solid fa-palette">Arts</a>
+       <a class="fa-sharp fa-solid fa-film">Films et livres </a>
+
+
+    </section>
+    <footer class="modal-card-foot">
+      <a class="close" >annuler</a>
+
+    </footer>
+  </div>
+
+
+  </div>
+
+
+</div>
+
+
+
+
+
+</form>
+
+
+</div>
+
+
+
+</div>
+</div>
+<% @annonces.each do |annonce| %>
+  <div class="card">
+    <h2><%= annonce.titre %></h2>
+    <p><%= annonce.prix %></p>
+    <p><%= annonce.date %></p>
+     <p><%= annonce.user_id %></p>
+  </div>
+<% end %>
+
+
+<div id="annonces">
+  <ul class=”pagination”>
+
+<li> <%= will_paginate @annonces %></li>
+
+</ul>
+</div>
+
+</section>
+<script>
+ $(document).ready(function() {
+$('a[data-target]').on('click', function() {
+
+  const target = $(this).data('target');
+  const modal = $('#' + target);
+  modal.addClass('is-active');
+  $('.close').on('click',function() { modal.removeClass('is-active');});
+
+
+$('.modal-card-body').on('click', 'a', function(event) {
+  // determine which button was clicked
+  var buttonText = $(event.target).text();
+   modal.removeClass('is-active');
+$('#category').text(buttonText);
+
+});
+
+
+
+
+
+
+});
+
+
+
+ });
+
+  </script>
+
+<%= link_to "New annonce", new_annonce_path %>
